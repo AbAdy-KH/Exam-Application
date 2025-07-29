@@ -1,0 +1,44 @@
+﻿@model TakeExamVM
+
+@{
+    ViewData["Title"] = "TakeExam";
+}
+
+<form asp-action="SubmitExam" method="post">
+    <div class="exam">
+	    <input type="hidden" name="ExamId" value="@Model.Id"/>
+
+	    <div class="exam-header">
+		    <h1>Take Exam: @Model.Exam.Text</h1>
+		    <p>@Model.Exam.Description</p>
+		    <p>Duration: @Model.Exam.Duration</p>
+	    </div>
+
+	    <div class="exam-questions">
+            @for (int i = 0; i < Model.Questions.Count; i++)
+            {
+                var question = Model.Questions[i];
+
+			    <input type="hidden" name="Answers[@(i)].QuestionId" value="@question.Id"/>
+
+                <div class="question">
+                    <div class="question-text">@($"{i + 1}. {question.Text}")</div>
+
+                    @foreach (var option in question.Options)
+                    {
+                        <div class="option">
+                            <input type="radio" name="Answers[@(i)].OptionId" value="@(option.Id)"/>
+                            @option.Text
+                        </div>
+                    }
+                </div>
+            }
+	    </div>
+
+	    <div class="exam-footer">
+		    <button type="submit" class="btn btn-primary">Submit Exam</button>
+	    </div>
+	</div>
+</form>
+
+

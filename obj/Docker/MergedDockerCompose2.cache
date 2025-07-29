@@ -1,0 +1,78 @@
+name: dockercompose17089555274298326314
+services:
+  examapp.api:
+    build:
+      context: C:\Users\Abd-Alrhman\OneDrive - jadara.edu.jo\سطح المكتب\ExamApp-CleanArchitecture
+      dockerfile: ExamApp.Api/Dockerfile
+    container_name: examapp_api
+    depends_on:
+      sqlserver:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+      ConnectionStrings__ExamAppConnectionString: Server=sqlserver,1440;Database=ExamApplication;User Id=sa;Password=Sa123456789!?;TrustServerCertificate=True;Encrypt=False;
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5000"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Abd-Alrhman\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Abd-Alrhman\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Abd-Alrhman\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Abd-Alrhman\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  sqlserver:
+    container_name: examapp_sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Sa123456789!?
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1440"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: sqlserver_data
+        target: /var/opt/mssql
+        volume: {}
+networks:
+  default:
+    name: dockercompose17089555274298326314_default
+volumes:
+  sqlserver_data:
+    name: dockercompose17089555274298326314_sqlserver_data

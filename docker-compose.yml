@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: examapp_sqlserver
+    environment:
+      SA_PASSWORD: "Sa123456789!?"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+  examapp.api:
+    build:
+      context: .
+      dockerfile: ExamApp.Api/Dockerfile
+    container_name: examapp_api
+    ports:
+      - "5000:80"
+    environment:
+      - ConnectionStrings__ExamAppConnectionString=Server=sqlserver,1433;Database=ExamApplication;User Id=sa;Password=Sa123456789!?;TrustServerCertificate=True;Encrypt=False;
+    depends_on:
+      - sqlserver
+
+volumes:
+  sqlserver_data:
