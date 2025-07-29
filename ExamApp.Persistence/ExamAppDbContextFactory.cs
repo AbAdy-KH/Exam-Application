@@ -12,8 +12,7 @@ namespace ExamApp.Persistence
             // هذا مهم: المسار يكون جذر مشروع الـ API غالبًا
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                //.AddJsonFile("C:\\Users\\Abd-Alrhman\\OneDrive - jadara.edu.jo\\Programming\\visual studio\\Solutions\\ExamApp-CleanArchitecture\\ExamApp.Api\\appsettings.json") // عدل حسب مكان ملف config
-                .AddJsonFile("C:\\Users\\Abd-Alrhman\\OneDrive - jadara.edu.jo\\سطح المكتب\\ExamApp-CleanArchitecture\\ExamApp.Api\\appsettings.json")
+                .AddJsonFile("\"C:\\Users\\Abd-Alrhman\\source\\repos\\ExamApp-CleanArchitecture\\ExamApp.Api\\appsettings.json\"")
                 .Build();
 
             var optionsBuilder = new DbContextOptionsBuilder<ExamAppDbContext>();

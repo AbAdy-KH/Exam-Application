@@ -63,12 +63,11 @@ builder.Services.AddEndpointsApiExplorer();
 var app = builder.Build();
 
 
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<ExamAppDbContext>();
-    dbContext.Database.Migrate();  // Applies pending migrations
-}
-
+//using (var scope = app.Services.CreateScope())
+//{
+//    var dbContext = scope.ServiceProvider.GetRequiredService<ExamAppDbContext>();
+//    dbContext.Database.Migrate();  // Applies pending migrations
+//}
 
 if (app.Environment.IsDevelopment())
 {

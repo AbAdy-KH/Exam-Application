@@ -28,3 +28,19 @@ C:\Users\Abd-Alrhman\OneDrive - jadara.edu.jo\سطح المكتب\ExamApp-CleanA
 C:\Users\Abd-Alrhman\OneDrive - jadara.edu.jo\سطح المكتب\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\refint\ExamApp.Application.dll
 C:\Users\Abd-Alrhman\OneDrive - jadara.edu.jo\سطح المكتب\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ExamApp.Application.pdb
 C:\Users\Abd-Alrhman\OneDrive - jadara.edu.jo\سطح المكتب\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ref\ExamApp.Application.dll
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\bin\Debug\net9.0\ExamApp.Application.deps.json
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\bin\Debug\net9.0\ExamApp.Application.dll
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\bin\Debug\net9.0\ExamApp.Application.pdb
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\bin\Debug\net9.0\ExamApp.Domain.dll
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\bin\Debug\net9.0\ExamApp.Domain.pdb
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ExamApp.Application.csproj.AssemblyReference.cache
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ExamApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ExamApp.Application.AssemblyInfoInputs.cache
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ExamApp.Application.AssemblyInfo.cs
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ExamApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ExamApp.Application.sourcelink.json
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ExamApp..228CC063.Up2Date
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ExamApp.Application.dll
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\refint\ExamApp.Application.dll
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ExamApp.Application.pdb
+C:\Users\Abd-Alrhman\source\repos\ExamApp-CleanArchitecture\ExamApp.Application\obj\Debug\net9.0\ref\ExamApp.Application.dll

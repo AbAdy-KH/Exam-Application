@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "We7ANQCMzKU=",
+  "dgSpecHash": "eAZSUAzjS70=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abd-Alrhman\\OneDrive - jadara.edu.jo\\سطح المكتب\\ExamApp-CleanArchitecture\\ExamApp.Infrastructure\\ExamApp.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Abd-Alrhman\\source\\repos\\ExamApp-CleanArchitecture\\ExamApp.Infrastructure\\ExamApp.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abd-Alrhman\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Abd-Alrhman\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",

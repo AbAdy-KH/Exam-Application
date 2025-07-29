@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OlL3hMixjkA=",
+  "dgSpecHash": "A2Un9HYG/og=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abd-Alrhman\\OneDrive - jadara.edu.jo\\سطح المكتب\\ExamApp-CleanArchitecture\\ExamApp.UnitTest\\ExamApp.UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\Abd-Alrhman\\source\\repos\\ExamApp-CleanArchitecture\\ExamApp.UnitTest\\ExamApp.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abd-Alrhman\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Abd-Alrhman\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

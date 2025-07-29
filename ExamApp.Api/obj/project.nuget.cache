@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8EvoWZcy1f0=",
+  "dgSpecHash": "UPHfcWnh8SE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abd-Alrhman\\OneDrive - jadara.edu.jo\\سطح المكتب\\ExamApp-CleanArchitecture\\ExamApp.Api\\ExamApp.Api.csproj",
+  "projectFilePath": "C:\\Users\\Abd-Alrhman\\source\\repos\\ExamApp-CleanArchitecture\\ExamApp.Api\\ExamApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abd-Alrhman\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Abd-Alrhman\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

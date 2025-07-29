@@ -6155,11 +6155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abd-Alrhman\\OneDrive - jadara.edu.jo\\سطح المكتب\\ExamApp-CleanArchitecture\\ExamApp.Mvc\\ExamApp.Mvc.csproj",
+      "projectUniqueName": "C:\\Users\\Abd-Alrhman\\source\\repos\\ExamApp-CleanArchitecture\\ExamApp.Mvc\\ExamApp.Mvc.csproj",
       "projectName": "ExamApp.Mvc",
-      "projectPath": "C:\\Users\\Abd-Alrhman\\OneDrive - jadara.edu.jo\\سطح المكتب\\ExamApp-CleanArchitecture\\ExamApp.Mvc\\ExamApp.Mvc.csproj",
+      "projectPath": "C:\\Users\\Abd-Alrhman\\source\\repos\\ExamApp-CleanArchitecture\\ExamApp.Mvc\\ExamApp.Mvc.csproj",
       "packagesPath": "C:\\Users\\Abd-Alrhman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abd-Alrhman\\OneDrive - jadara.edu.jo\\سطح المكتب\\ExamApp-CleanArchitecture\\ExamApp.Mvc\\obj\\",
+      "outputPath": "C:\\Users\\Abd-Alrhman\\source\\repos\\ExamApp-CleanArchitecture\\ExamApp.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
